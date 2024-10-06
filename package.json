@@ -1,0 +1,44 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.7.7",
+        "laravel-vite-plugin": "^1.0.5",
+        "vite": "^5.4.8"
+    },
+    "name": "bookapp",
+    "version": "1.0.0",
+    "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+    "main": "vite.config.js",
+    "directories": {
+        "test": "tests"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@dropzone-ui/react": "^7.0.4",
+        "@emotion/react": "^11.13.3",
+        "@emotion/styled": "^11.13.0",
+        "@inertiajs/inertia": "^0.11.1",
+        "@inertiajs/inertia-react": "^0.8.1",
+        "@inertiajs/react": "^1.2.0",
+        "@mui/icons-material": "^6.1.2",
+        "@mui/material": "^6.1.2",
+        "@mui/x-data-grid": "^7.19.0",
+        "@vitejs/plugin-react": "^4.3.2",
+        "bootstrap": "^5.3.3",
+        "jodit-react": "^4.1.2",
+        "notyf": "^3.10.0",
+        "react": "^18.3.1",
+        "react-bootstrap": "^2.10.5",
+        "react-dom": "^18.3.1",
+        "react-pro-sidebar": "^1.1.0",
+        "react-router-dom": "^6.26.2",
+        "sweetalert2": "^11.14.1"
+    }
+}
