@@ -17,6 +17,7 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import AccessibilityOutlinedIcon from "@mui/icons-material/AccessibilityOutlined";
 import AccountBoxOutlinedIcon from "@mui/icons-material/AccountBoxOutlined";
 import LoginOutlinedIcon from "@mui/icons-material/LoginOutlined";
+import "../../css/app.css";
 function Layout({ children }) {
     const { collapseSidebar } = useProSidebar();
     return (
@@ -37,7 +38,7 @@ function Layout({ children }) {
                                 paddingTop: "10px",
                             }}
                         >
-                            <h2>Admin</h2>
+                            <h2>Lirary MIC</h2>
                         </MenuItem>
                         <SubMenu icon={<MenuBookOutlinedIcon />} label="Thư viện sách">
                         <a className="text-decoration-none text-black" href={"/permissions"}>
